@@ -162,7 +162,7 @@ this.ScenarioInitialize(scenarioInfo);
   testRunner.When("StringCat is called", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 14
-  testRunner.Then("the result should be Hello World", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+  testRunner.Then("the concatenated string should be Hello World", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
             this.ScenarioCleanup();

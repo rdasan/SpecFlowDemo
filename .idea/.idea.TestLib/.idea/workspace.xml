@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b58dce03-02f6-4fa5-b9cc-ad88d4ca5064" name="Default Changelist" comment="" />
+    <list default="true" id="b58dce03-02f6-4fa5-b9cc-ad88d4ca5064" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TestLib/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TestLib/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestLib.Specs/TestLib.Specs.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/TestLib.Specs/TestLib.Specs.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestLib.Specs/bin/Debug/net5.0/TestLib.Specs.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/TestLib.Specs/bin/Debug/net5.0/TestLib.Specs.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestLib.Specs/bin/Debug/net5.0/TestLib.Specs.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TestLib.Specs/bin/Debug/net5.0/TestLib.Specs.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestLib.Specs/bin/Debug/net5.0/TestLib.Specs.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TestLib.Specs/bin/Debug/net5.0/TestLib.Specs.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestLib.Specs/obj/Debug/net5.0/TestLib.Specs.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TestLib.Specs/obj/Debug/net5.0/TestLib.Specs.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestLib.Specs/obj/Debug/net5.0/TestLib.Specs.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TestLib.Specs/obj/Debug/net5.0/TestLib.Specs.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestLib.Specs/obj/Debug/net5.0/TestLib.Specs.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TestLib.Specs/obj/Debug/net5.0/TestLib.Specs.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestLib.Specs/obj/Debug/net5.0/TestLib.Specs.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TestLib.Specs/obj/Debug/net5.0/TestLib.Specs.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestLib.Specs/obj/Debug/net5.0/TestLib.Specs.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TestLib.Specs/obj/Debug/net5.0/TestLib.Specs.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestLib.Specs/obj/Debug/net5.0/TestLib.Specs.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TestLib.Specs/obj/Debug/net5.0/TestLib.Specs.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestLib.Specs/obj/TestLib.Specs.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/TestLib.Specs/obj/TestLib.Specs.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestLib.Specs/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/TestLib.Specs/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestLib.Specs/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TestLib.Specs/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestLib.Specs/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/TestLib.Specs/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestLib.Specs/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/TestLib.Specs/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestLib.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/TestLib.sln.DotSettings.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestLib/obj/Debug/net5.0/TestLib.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TestLib/obj/Debug/net5.0/TestLib.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestLib/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/TestLib/obj/rider.project.restore.info" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,10 +40,10 @@
       <option value="$PROJECT_DIR$/TestLib.Specs/Features/CalculatorSteps.ts" />
       <option value="$PROJECT_DIR$/TestLib.Specs/StepDefinitions/CalculatorStepDefinitions.cs" />
       <option value="$PROJECT_DIR$/TestLib.Specs/Features/TestLibStepDefinitions.cs" />
-      <option value="$PROJECT_DIR$/TestLib.Specs/Features/step_definitions/MySteps.ts" />
       <option value="$PROJECT_DIR$/TestLib/Calculator.cs" />
       <option value="$PROJECT_DIR$/TestLib.Specs/Features/TestLib.steps.cs" />
       <option value="$PROJECT_DIR$/TestLib.Specs/Features/TestLib.feature" />
+      <option value="$PROJECT_DIR$/TestLib.Specs/Features/step_definitions/MySteps.ts" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1mMNDsgZeKgKFHBem0OJWUFQewA" />
@@ -65,7 +85,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1609299383267</updated>
-      <workItem from="1609299387257" duration="5362000" />
+      <workItem from="1609299387257" duration="6399000" />
     </task>
     <servers />
   </component>

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "iJjkEmWJnxQfuM2HcbCEpAc0XoVp/Tdz/KvB6Ol36ZkPoKCQCOyGy7wbmCsUPtVXSnxfEfryLlGBnSp5Jqt9kA==",
+  "dgSpecHash": "Km5jmo9wXemV+htFYzAG/FuEO88G3Yc3hn+gWWpcMG2c5EtpUyeT7UmZv/JjCgsRC5+61dvz7N9yLY5VXaD6uA==",
   "success": true,
   "projectFilePath": "/Users/rdasan/RiderProjects/TestLib/TestLib.Specs/TestLib.Specs.csproj",
   "expectedPackageFiles": [
@@ -38,6 +38,7 @@
     "/Users/rdasan/.nuget/packages/runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl/4.3.2/runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512",
     "/Users/rdasan/.nuget/packages/runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl/4.3.2/runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512",
     "/Users/rdasan/.nuget/packages/specflow/3.5.14/specflow.3.5.14.nupkg.sha512",
+    "/Users/rdasan/.nuget/packages/specflow.plus.livingdocplugin/3.5.186/specflow.plus.livingdocplugin.3.5.186.nupkg.sha512",
     "/Users/rdasan/.nuget/packages/specflow.tools.msbuild.generation/3.5.14/specflow.tools.msbuild.generation.3.5.14.nupkg.sha512",
     "/Users/rdasan/.nuget/packages/specflow.xunit/3.5.14/specflow.xunit.3.5.14.nupkg.sha512",
     "/Users/rdasan/.nuget/packages/system.appcontext/4.3.0/system.appcontext.4.3.0.nupkg.sha512",

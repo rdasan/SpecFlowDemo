@@ -673,6 +673,22 @@
           "build/SpecFlow.targets": {}
         }
       },
+      "SpecFlow.Plus.LivingDocPlugin/3.5.186": {
+        "type": "package",
+        "dependencies": {
+          "SpecFlow": "[3.4.8, 3.6.0)",
+          "SpecFlow.Tools.MsBuild.Generation": "[3.4.8, 3.6.0)",
+          "Utf8Json": "1.3.7"
+        },
+        "compile": {
+          "lib/netstandard2.0/LivingDoc.Dtos.dll": {},
+          "lib/netstandard2.0/LivingDoc.SpecFlowPlugin.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/LivingDoc.Dtos.dll": {},
+          "lib/netstandard2.0/LivingDoc.SpecFlowPlugin.dll": {}
+        }
+      },
       "SpecFlow.Tools.MsBuild.Generation/3.5.14": {
         "type": "package",
         "dependencies": {
@@ -2738,6 +2754,22 @@
         "lib/netstandard2.0/TechTalk.SpecFlow.xml",
         "specflow.3.5.14.nupkg.sha512",
         "specflow.nuspec"
+      ]
+    },
+    "SpecFlow.Plus.LivingDocPlugin/3.5.186": {
+      "sha512": "6+JTr/YM+t2Jkhu/2vqBvO2OYQHqKO4vWibgJfG4ut2z1XWHzLTqIL3NSuMU8DzslYp1k1Q8n+v8vWhUzHRMNA==",
+      "type": "package",
+      "path": "specflow.plus.livingdocplugin/3.5.186",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "images/specflow-icon.png",
+        "lib/net461/LivingDoc.Dtos.dll",
+        "lib/net461/LivingDoc.SpecFlowPlugin.dll",
+        "lib/netstandard2.0/LivingDoc.Dtos.dll",
+        "lib/netstandard2.0/LivingDoc.SpecFlowPlugin.dll",
+        "specflow.plus.livingdocplugin.3.5.186.nupkg.sha512",
+        "specflow.plus.livingdocplugin.nuspec"
       ]
     },
     "SpecFlow.Tools.MsBuild.Generation/3.5.14": {
@@ -6487,6 +6519,7 @@
       "FluentAssertions >= 5.10.3",
       "Microsoft.NET.Test.Sdk >= 16.7.1",
       "SpecFlow >= 3.5.14",
+      "SpecFlow.Plus.LivingDocPlugin >= 3.5.186",
       "SpecFlow.Tools.MsBuild.Generation >= 3.5.14",
       "SpecFlow.xUnit >= 3.5.14",
       "TestLib >= 1.0.0",
@@ -6547,6 +6580,10 @@
           "SpecFlow": {
             "target": "Package",
             "version": "[3.5.14, )"
+          },
+          "SpecFlow.Plus.LivingDocPlugin": {
+            "target": "Package",
+            "version": "[3.5.186, )"
           },
           "SpecFlow.Tools.MsBuild.Generation": {
             "target": "Package",

@@ -11,4 +11,4 @@ Scenario: Concatenate two strings
   Given First string Hello
   And Second string World
   When StringCat is called
-  Then the result should be Hello World
+  Then the concatenated string should be Hello World
