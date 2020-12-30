@@ -1,0 +1,12 @@
+/Users/rdasan/RiderProjects/TestLib/TestLib/bin/Debug/net5.0/TestLib.deps.json
+/Users/rdasan/RiderProjects/TestLib/TestLib/bin/Debug/net5.0/TestLib.dll
+/Users/rdasan/RiderProjects/TestLib/TestLib/bin/Debug/net5.0/ref/TestLib.dll
+/Users/rdasan/RiderProjects/TestLib/TestLib/bin/Debug/net5.0/TestLib.pdb
+/Users/rdasan/RiderProjects/TestLib/TestLib/obj/Debug/net5.0/TestLib.csprojAssemblyReference.cache
+/Users/rdasan/RiderProjects/TestLib/TestLib/obj/Debug/net5.0/TestLib.GeneratedMSBuildEditorConfig.editorconfig
+/Users/rdasan/RiderProjects/TestLib/TestLib/obj/Debug/net5.0/TestLib.AssemblyInfoInputs.cache
+/Users/rdasan/RiderProjects/TestLib/TestLib/obj/Debug/net5.0/TestLib.AssemblyInfo.cs
+/Users/rdasan/RiderProjects/TestLib/TestLib/obj/Debug/net5.0/TestLib.csproj.CoreCompileInputs.cache
+/Users/rdasan/RiderProjects/TestLib/TestLib/obj/Debug/net5.0/TestLib.dll
+/Users/rdasan/RiderProjects/TestLib/TestLib/obj/Debug/net5.0/ref/TestLib.dll
+/Users/rdasan/RiderProjects/TestLib/TestLib/obj/Debug/net5.0/TestLib.pdb

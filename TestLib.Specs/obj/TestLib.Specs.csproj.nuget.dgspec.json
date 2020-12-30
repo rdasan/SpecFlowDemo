@@ -1,0 +1,154 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/rdasan/RiderProjects/TestLib/TestLib.Specs/TestLib.Specs.csproj": {}
+  },
+  "projects": {
+    "/Users/rdasan/RiderProjects/TestLib/TestLib.Specs/TestLib.Specs.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/rdasan/RiderProjects/TestLib/TestLib.Specs/TestLib.Specs.csproj",
+        "projectName": "TestLib.Specs",
+        "projectPath": "/Users/rdasan/RiderProjects/TestLib/TestLib.Specs/TestLib.Specs.csproj",
+        "packagesPath": "/Users/rdasan/.nuget/packages/",
+        "outputPath": "/Users/rdasan/RiderProjects/TestLib/TestLib.Specs/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/rdasan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/rdasan/RiderProjects/TestLib/TestLib/TestLib.csproj": {
+                "projectPath": "/Users/rdasan/RiderProjects/TestLib/TestLib/TestLib.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[5.10.3, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.7.1, )"
+            },
+            "SpecFlow": {
+              "target": "Package",
+              "version": "[3.5.14, )"
+            },
+            "SpecFlow.Tools.MsBuild.Generation": {
+              "target": "Package",
+              "version": "[3.5.14, )"
+            },
+            "SpecFlow.xUnit": {
+              "target": "Package",
+              "version": "[3.5.14, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.3.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/rdasan/RiderProjects/TestLib/TestLib/TestLib.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/rdasan/RiderProjects/TestLib/TestLib/TestLib.csproj",
+        "projectName": "TestLib",
+        "projectPath": "/Users/rdasan/RiderProjects/TestLib/TestLib/TestLib.csproj",
+        "packagesPath": "/Users/rdasan/.nuget/packages/",
+        "outputPath": "/Users/rdasan/RiderProjects/TestLib/TestLib/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/rdasan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

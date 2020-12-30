@@ -1,0 +1,61 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+
+        <IsPackable>false</IsPackable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="FluentAssertions" Version="5.10.3" />
+        <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.7.1" />
+        <PackageReference Include="SpecFlow" Version="3.5.14" />
+        <PackageReference Include="SpecFlow.Tools.MsBuild.Generation" Version="3.5.14" />
+        <PackageReference Include="SpecFlow.xUnit" Version="3.5.14" />
+        <PackageReference Include="xunit" Version="2.4.1" />
+        <PackageReference Include="xunit.runner.visualstudio" Version="2.4.3">
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+            <PrivateAssets>all</PrivateAssets>
+        </PackageReference>
+        <PackageReference Include="coverlet.collector" Version="1.3.0">
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+            <PrivateAssets>all</PrivateAssets>
+        </PackageReference>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\TestLib\TestLib.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Remove="UnitTest1.cs" />
+      <Compile Update="Features\TestLibStepDefinitions.cs">
+        <DependentUpon>TestLib.feature</DependentUpon>
+      </Compile>
+      <Compile Remove="Features\step_definitions\**" />
+      <Compile Update="Features\TestLib.steps.cs">
+        <DependentUpon>TestLib.feature</DependentUpon>
+      </Compile>
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Features\step_definitions\MySteps.ts" />
+      <None Remove="Features\step_definitions\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <SpecFlowFeatureFiles Remove="Features\step_definitions\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="Features\step_definitions\**" />
+    </ItemGroup>
+
+    <Target Name="AfterUpdateFeatureFilesInProject">
+        <!-- include any generated SpecFlow files in the compilation of the project if not included yet -->
+        <ItemGroup>
+            <Compile Include="**\*.feature.cs" Exclude="@(Compile)" />
+        </ItemGroup>
+    </Target>
+
+</Project>
