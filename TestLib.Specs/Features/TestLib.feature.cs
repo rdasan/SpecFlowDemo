@@ -19,7 +19,7 @@ namespace TestLib.Specs.Features
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("TechTalk.SpecFlow", "3.5.0.0")]
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    public partial class TestingStuffFeature : object, Xunit.IClassFixture<TestingStuffFeature.FixtureData>, System.IDisposable
+    public partial class RolodexEntityMatcherScoringFeature : object, Xunit.IClassFixture<RolodexEntityMatcherScoringFeature.FixtureData>, System.IDisposable
     {
         
         private static TechTalk.SpecFlow.ITestRunner testRunner;
@@ -31,7 +31,7 @@ namespace TestLib.Specs.Features
 #line 1 "TestLib.feature"
 #line hidden
         
-        public TestingStuffFeature(TestingStuffFeature.FixtureData fixtureData, TestLib_Specs_XUnitAssemblyFixture assemblyFixture, Xunit.Abstractions.ITestOutputHelper testOutputHelper)
+        public RolodexEntityMatcherScoringFeature(RolodexEntityMatcherScoringFeature.FixtureData fixtureData, TestLib_Specs_XUnitAssemblyFixture assemblyFixture, Xunit.Abstractions.ITestOutputHelper testOutputHelper)
         {
             this._testOutputHelper = testOutputHelper;
             this.TestInitialize();
@@ -40,7 +40,8 @@ namespace TestLib.Specs.Features
         public static void FeatureSetup()
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Features", "Testing stuff", "  Just testing random stuff using SpecFlow", ProgrammingLanguage.CSharp, ((string[])(null)));
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Features", "Rolodex Entity Matcher Scoring", "  POC for simple SpecFlow BDD Test\n  Rolodex Entity Matching Rules Scoring Engine" +
+                    "", ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
         }
         
@@ -80,15 +81,15 @@ namespace TestLib.Specs.Features
             this.TestTearDown();
         }
         
-        [Xunit.SkippableFactAttribute(DisplayName="Add two numbers")]
-        [Xunit.TraitAttribute("FeatureTitle", "Testing stuff")]
-        [Xunit.TraitAttribute("Description", "Add two numbers")]
-        public virtual void AddTwoNumbers()
+        [Xunit.SkippableFactAttribute(DisplayName="FullVerbatim")]
+        [Xunit.TraitAttribute("FeatureTitle", "Rolodex Entity Matcher Scoring")]
+        [Xunit.TraitAttribute("Description", "FullVerbatim")]
+        public virtual void FullVerbatim()
         {
             string[] tagsOfScenario = ((string[])(null));
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Add two numbers", null, tagsOfScenario, argumentsOfScenario);
-#line 4
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("FullVerbatim", "  Exact match for whole name, except for punctuations", tagsOfScenario, argumentsOfScenario);
+#line 17
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -108,61 +109,14 @@ this.ScenarioInitialize(scenarioInfo);
             else
             {
                 this.ScenarioStart();
-#line 5
-  testRunner.Given("I chose 12 as first number", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 19
+  testRunner.Given("Firm Name \"American Bank Corp\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-#line 6
-  testRunner.And("I chose 15 as second number", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 20
+  testRunner.Then("should give a match hit for \"American Bank Corp.\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
-#line 7
-  testRunner.When("I call AddNumbers", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line hidden
-#line 8
-  testRunner.Then("the result should be 27 on the screen", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line hidden
-            }
-            this.ScenarioCleanup();
-        }
-        
-        [Xunit.SkippableFactAttribute(DisplayName="Concatenate two strings")]
-        [Xunit.TraitAttribute("FeatureTitle", "Testing stuff")]
-        [Xunit.TraitAttribute("Description", "Concatenate two strings")]
-        public virtual void ConcatenateTwoStrings()
-        {
-            string[] tagsOfScenario = ((string[])(null));
-            System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Concatenate two strings", null, tagsOfScenario, argumentsOfScenario);
-#line 10
-this.ScenarioInitialize(scenarioInfo);
-#line hidden
-            bool isScenarioIgnored = default(bool);
-            bool isFeatureIgnored = default(bool);
-            if ((tagsOfScenario != null))
-            {
-                isScenarioIgnored = tagsOfScenario.Where(__entry => __entry != null).Where(__entry => String.Equals(__entry, "ignore", StringComparison.CurrentCultureIgnoreCase)).Any();
-            }
-            if ((this._featureTags != null))
-            {
-                isFeatureIgnored = this._featureTags.Where(__entry => __entry != null).Where(__entry => String.Equals(__entry, "ignore", StringComparison.CurrentCultureIgnoreCase)).Any();
-            }
-            if ((isScenarioIgnored || isFeatureIgnored))
-            {
-                testRunner.SkipScenario();
-            }
-            else
-            {
-                this.ScenarioStart();
-#line 11
-  testRunner.Given("First string Hello", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line hidden
-#line 12
-  testRunner.And("Second string World", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line hidden
-#line 13
-  testRunner.When("StringCat is called", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line hidden
-#line 14
-  testRunner.Then("the concatenated string should be Hello World", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 21
+  testRunner.And("should not give a match hit for \"American Bank Corporation\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
             }
             this.ScenarioCleanup();
@@ -175,12 +129,12 @@ this.ScenarioInitialize(scenarioInfo);
             
             public FixtureData()
             {
-                TestingStuffFeature.FeatureSetup();
+                RolodexEntityMatcherScoringFeature.FeatureSetup();
             }
             
             void System.IDisposable.Dispose()
             {
-                TestingStuffFeature.FeatureTearDown();
+                RolodexEntityMatcherScoringFeature.FeatureTearDown();
             }
         }
     }
